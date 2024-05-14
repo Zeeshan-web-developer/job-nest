@@ -12,15 +12,29 @@ export default function Home() {
     "
       >
         <div>
-          <h2>JobNest</h2>
+          <h2 className="text-4xl  font-bold  text-yellow-500  cursor-pointer  hover:text-yellow-600  transition-all  duration-300  ease-in-out">
+            JobNest
+          </h2>
         </div>
         <div>
-          <p>Find your dream job</p>
+          <p className="text-gray-400  text-sm  cursor-pointer  hover:text-gray-600  transition-all  duration-300  ease-in-out">
+            Find your dream job
+          </p>
         </div>
         <div className="flex gap-2">
           {/* user logo if logged in else show login/sigup */}
-          <Button type="primary">Already Registered? Login here</Button>
-          <Button type="primary">New User? Signup here</Button>
+          <Button className="border-2  border-yellow-500  text-yellow-500  hover:bg-yellow-500  hover:text-white">
+            Already Registered? Login here
+          </Button>
+          <Button
+            className="bg-yellow-500  hover:bg-yellow-600  text-white  border-2  border-yellow-500
+          hover:border-yellow-600 
+          hover:text-white
+          
+          "
+          >
+            New User? Signup here
+          </Button>
         </div>
       </div>
 
