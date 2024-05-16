@@ -94,7 +94,6 @@ export default function Home() {
           <h1 className="text-4xl  font-bold  mb-4  text-gray-800 ">
             Make the right hires faster, with confidence
           </h1>
-          <Footer />
         </div>
       </div>
     </>
