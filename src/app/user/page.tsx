@@ -21,17 +21,6 @@ function page({}: Props) {
           </h2>
         </div>
         <div className="flex flex-col gap-2  md:flex-row">
-          <Link
-            href="/find-jobs"
-            className="text-gray-400  text-sm  cursor-pointer  hover:text-gray-600  transition-all  duration-300  ease-in-out"
-          >
-            <Button className="border-2  border-yellow-500  text-yellow-500  hover:bg-yellow-500  hover:text-white">
-              Find Jobs
-            </Button>
-          </Link>
-          {/* <li>Apply for Jobs</li>
-          <li>View Applications</li>
-          <li>View Profile</li> */}
           <Link href="/apply-for-jobs">
             <Button className="border-2  border-yellow-500  text-yellow-500  hover:bg-yellow-500  hover:text-white hover:border-yellow-600 ">
               Apply for Jobs
@@ -40,11 +29,6 @@ function page({}: Props) {
           <Link href="/view-applications">
             <Button className="border-2  border-yellow-500  text-yellow-500  hover:bg-yellow-500  hover:text-white">
               View Applications
-            </Button>
-          </Link>
-          <Link href="/view-profile">
-            <Button className="border-2  border-yellow-500  text-yellow-500  hover:bg-yellow-500  hover:text-white">
-              View Profile
             </Button>
           </Link>
         </div>

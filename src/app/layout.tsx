@@ -25,7 +25,7 @@ export default function RootLayout({
       ${inter.className}`}
       >
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
